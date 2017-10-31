@@ -1,0 +1,24 @@
+{
+  "author" : "Kristin Fritsch",
+  "commands" : [
+    {
+      "script" : "script.js",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "Replace color",
+      "identifier" : "replaceColor"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "replaceColor"
+    ],
+    "title" : "Replace Color"
+  },
+  "identifier" : "com.twissi.plugins.replacecolor",
+  "version" : "1.0",
+  "description" : "Replace color",
+  "authorEmail" : "ich@kristin-fritsch.de",
+  "name" : "Replace Color",
+  "appcast": "https://raw.githubusercontent.com/kfritsch/replace-color/master/appcast.xml"
+}
